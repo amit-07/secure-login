@@ -1,8 +1,8 @@
 .login__form__container{
     width: 30%;
-    margin-top: 15vh;
+    margin-top: 12vh;
     background-color: #fff;
-    max-height: 65vh;
+    max-height: 80vh;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
@@ -44,6 +44,7 @@
     color: black;
     font-weight: bold;
     text-align: center;
+    font-size: 14px;
 }
 
 .error__msg{
