@@ -46,3 +46,24 @@
     text-align: center;
 }
 
+.error__msg{
+    font-size: 13px;
+    color: red;
+    -webkit-transition: width 1s ease-out;
+    -moz-transition: width 1s ease-out;
+    -ms-transition: width 1s ease-out;
+    -o-transition: width 1s ease-out;
+    transition: width 1s ease-out;
+}
+
+.error {
+    position: relative;
+    animation: shake .1s linear;
+    animation-iteration-count: 3;
+}
+
+@keyframes shake {
+    0% { left: -5px; }
+    100% { right: -5px; }
+}
+
