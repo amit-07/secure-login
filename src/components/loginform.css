@@ -6,7 +6,7 @@
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
-    border-top: 2px solid green;
+    border-top: 4px solid green;
     display: flex;
     justify-content: center;
 }
@@ -22,12 +22,12 @@
 
 .login__form .fields{
     width: 100%;
-    padding: 10px 0;
+    padding: 10px 2px;
 }
 
 .login__form .btn{
     width: 100%;
-    padding: 10px 0;
+    padding: 10px 2px;
     outline: 0;
     border: 0;
     background-color: green;
@@ -40,7 +40,7 @@
     background-color: rgb(103, 199, 103);
 }
 
-.login__form p a{
+.login__form section,a{
     color: black;
     font-weight: bold;
     text-align: center;

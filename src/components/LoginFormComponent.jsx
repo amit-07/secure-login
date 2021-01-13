@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import './loginform.css';
 
 function LoginForm(){
+    const [fromData, setFormData] = useState({email: '', pwd: '', rememberMe: false, submitted: false});
     return (
       <div className="login__form__container">
         <form className="login__form">
@@ -32,15 +33,17 @@ function LoginForm(){
               <b>Sign in</b>
             </button>
           </p>
-          <p>
-            <a href="#">Forgot your password?</a>
-          </p>
-          <p>
-            Dont have an account? <a href="#">Sign up</a>
-          </p>
-          <p>
-            <a href="#">Resend email confirmation</a>
-          </p>
+          <section>
+              <p>
+                <a href="#">Forgot your password?</a>
+              </p>
+              <p>
+                Dont have an account? <a href="#">Sign up</a>
+              </p>
+              <p>
+                <a href="#">Resend email confirmation</a>
+              </p>
+            </section>   
         </form>
       </div>
     );
